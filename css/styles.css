@@ -26,6 +26,15 @@ h3 {
   font-family: 'Courier Prime', monospace;
 }
 
+.logo a:link {
+  text-decoration: none;
+}
+
+.logo a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
 #welcome-section {
   height: calc(100% - 146.812px);
   padding-top: 146.812px;
