@@ -28,6 +28,7 @@ h3 {
 
 .logo a:link {
   text-decoration: none;
+  color: inherit;
 }
 
 .logo a:visited {
