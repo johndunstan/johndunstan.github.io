@@ -68,10 +68,15 @@ h3 {
 .project-placeholder {
   height: 15rem;
   width: 15rem;
-  background-color: var(--blue-ncs-translucent);
+  /* background-color: var(--blue-ncs-translucent); */
   border-radius: 1rem;
   margin: 3rem auto;
   margin-bottom: 0.5rem;
+}
+
+.project-placeholder > i {
+  font-size: 15rem;
+  color: var(--blue-ncs-translucent);
 }
 
 .project-tile {
