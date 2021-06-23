@@ -15,14 +15,14 @@ body {
   margin: 0;
 }
 
-body {
+body,
+h3 {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: 'Courier Prime', monospace;
 }
 
