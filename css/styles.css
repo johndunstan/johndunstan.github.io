@@ -3,7 +3,8 @@
   --blue-ncs: #2589bd;
   --blue-ncs-translucent: #2589bd80;
   --ming: #38686a;
-  --laurel-green: #a3b4a2;
+  --laurel-green: #c7d8c6;
+  /* --laurel-green: #a3b4a2; */
   --bone: #cdc6ae;
   --off-white: #f9f1f1;
   --off-black: #202020;
@@ -44,18 +45,24 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 
   background-color: var(--off-white);
   color: var(--off-black);
 }
 
-#welcome-section > h1 {
+#welcome-section h1 {
   font-size: 2rem;
   margin-bottom: 0;
 }
 
-#welcome-section > h2 {
+#welcome-section h2 {
   font-size: 1.25rem;
+}
+
+#welcome-headshot {
+  border-radius: 50%;
+  margin-top: 3rem;
 }
 
 #projects {
@@ -231,12 +238,33 @@ ul li:hover {
     padding-top: 100px;
   }
 
-  #welcome-section > h1 {
+  #welcome-section h1 {
     font-size: 3rem;
   }
 
-  #welcome-section > h2 {
+  #welcome-section h2 {
     font-size: 1.5rem;
+  }
+
+  #welcome-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #welcome-title {
+    /* width: auto; */
+  }
+
+  .welcome-side-bar {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #welcome-headshot {
+    margin-top: 0;
   }
 
   #contact-links {
