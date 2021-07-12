@@ -27,6 +27,14 @@ h2 {
   font-family: 'Courier Prime', monospace;
 }
 
+.subhead-style {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--menu-bar);
+  padding-top: 2rem;
+  margin-top: 0;
+}
+
 .logo a:link {
   text-decoration: none;
   color: inherit;
@@ -66,10 +74,17 @@ h2 {
 }
 
 #projects {
+  background-color: var(--laurel-green);
+}
+
+#projects-title {
+  margin: 0;
+}
+
+#project-tiles {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: var(--laurel-green);
 }
 
 .project-placeholder {
